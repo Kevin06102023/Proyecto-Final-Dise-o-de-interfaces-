@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Medicina Natural Salud y Bienestar</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Medicina Natural Salud y Bienestar</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="acercaDe.html">Acerca de</a></li>
+                    <li><a href="MedicinaNatural.html">Medicina Natural</a></li>
+                    <li><a href="producto.html">Productos</a></li>
+                    <li><a href="contactos.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="contacto">
+            <div class="container">
+                <h2>Contacto</h2>
+                <p>Estamos aquí para ayudarte. Completa el formulario a continuación y nos pondremos en contacto contigo.</p>
+                <form action="enviar-formulario.php" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
